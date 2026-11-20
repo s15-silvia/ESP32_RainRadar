@@ -1,0 +1,57 @@
+Inter Font
+----------
+
+Inter is licensed under the SIL Open Font License, Version 1.1.
+
+Copyright (c) 2016 The Inter Project Authors
+
+License:
+https://openfontlicense.org/
+
+Source:
+https://github.com/rsms/inter
+
+
+気象庁の気象データ
+------------------
+
+本プロジェクトでは、気象庁が公開する以下の気象データを使用しています。
+
+- アメダス（AMeDAS）観測データ
+- 地域時系列予報
+- 高解像度降水ナウキャスト（雨雲レーダー）データ
+
+出典：
+気象庁
+https://www.jma.go.jp/
+
+利用規約：
+気象庁ホームページ利用規約
+https://www.jma.go.jp/jma/kishou/info/coment.html
+
+これらのデータは、ESP32のLCDへの表示を目的として取得・加工しています。
+利用にあたっては、気象庁が定める利用規約および出典の明記等の条件に従ってください。
+
+
+国土地理院の地図データ
+----------------------
+
+本プロジェクトでは、雨雲レーダーの背景地図として、国土地理院が提供する淡色地図（pale2）のタイル画像を使用しています。
+
+出典：
+国土地理院
+地理院タイル一覧
+https://maps.gsi.go.jp/development/ichiran.html
+
+利用規約・利用方法：
+https://maps.gsi.go.jp/help/use.html
+
+地図画像は、本プロジェクトでの表示にあたり、グレースケール化、コントラスト調整、および気象庁の降水データとの合成を行っています。利用にあたっては、国土地理院が定める利用条件および必要な出典表記に従ってください。
+
+なお、ズームレベル5〜18の淡色地図に含まれる海岸線データの出典は、以下のとおりです。
+
+United States. National Imagery and Mapping Agency.
+"Vector Map Level 0 (VMAP0)." Bethesda, MD: The Agency; USGS Information Services, 1997.
+
+
+本プロジェクトは、気象庁および国土地理院が提供・運営する公式プロジェクトではありません。
